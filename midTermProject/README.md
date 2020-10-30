@@ -15,10 +15,11 @@ British companies could have performed in case of no-leave;
 
 Mainly, there are three routes to visually display the results:
 
-1.  adopting descriptive statistical charts (that is, drawing on the tools
+1.  adopting descriptive statistical charts (that is, drawing on the tools 
+    discussed in week 3 module);
 2.  adopting charts that convey the results produced with statistical models
 such as linear regression (that is, drawing on the tools discussed in week 5
-of the model);
+of the module);
 3.  going for a combination of the previous two routes.
 
 **!!!  Notes ¡¡¡**: the choice of the route does not affect the mark of the
@@ -38,7 +39,21 @@ The data for the project contains:
 +   population of companies
 +   economic & financials (both short- and long-term)
 
-The columns included in the two data tables have self-explanatory labels.
+## Variables
+
+Below is the codebook for the variables included in the data table:
+
+-   'company': name of the company;
+-   'country': company location;
+-   'price': share price;
+-   'sector': sector in which a company operates
+-   'assets': company assets (K)
+-   'operating': ratio of a company's operating income before interest and
+    taxes (earnings before interest, taxes) to the book value of total assets;
+-   'debt_to_assets': the variable reflects the ratio between the sum of a
+     company’s total debt on the book value of total assets;
+-   'age': company's tenure;
+-   'date': timestamp
 
 ## Population of companies
 
@@ -62,8 +77,8 @@ By November 11 (8:00 PM),i students are supposed to upload the following onto Mo
 +   a .pdf of the visualization;
 +   the Python code of the project;
 +   a companion document that explains:
-  -   the design choices behind the visualization and their rationales
-  -   the data transformation and analysis tasks (if any) carried out to achieve the visualization.
+    -   the design choices behind the visualization and their rationales
+    -   the data transformation and analysis tasks (if any) carried out to achieve the visualization.
 
 Regarding the companion document, students are free to pick-up the template the best serves their needs. I'll accept:
 
